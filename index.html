@@ -21,10 +21,38 @@
       content="https://img.freepik.com/premium-photo/image-colorful-galaxy-sky-generative-ai_791316-9864.jpg?w=2000"
     />
     <title>Lesson 13</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <header>
+      <div class="header-wraper">
+        <a href="">LOGO</a>
+
+        <nav class="navigation" id="navBar">
+          <ul class="ul-nav">
+            <li><a href="">Home</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="burgerBar" id="burBar">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- js ლოგიკა -->
+    <section>
+      <div id="js-wraper"></div>
+
+      <button id="btn-click">Click Me</button>
+    </section>
     <section>
       <h2>ზომის ერთეულები</h2>
       <div class="size">
@@ -73,7 +101,6 @@
         <div class="box-item item5">5</div>
       </div>
 
-
       <!-- example 3 -->
       <div class="grid3">
         <div class="card">1</div>
@@ -83,6 +110,27 @@
         <div class="card">5</div>
         <div class="card">6</div>
       </div>
+
+      <!-- auto fill & auto fit -->
+      <div class="grid-container grid-container-fill">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+      </div>
+
+      <div class="grid-container grid-container-fit">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+      </div>
     </section>
+
+    <script src="script.js"></script>
   </body>
 </html>
